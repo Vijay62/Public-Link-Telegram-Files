@@ -35,3 +35,5 @@ set new cron job for `cron.php`, for auto delete files.
 ## Settings
 File `includes/settings.php` contains all the configurations.
 you can change saved folder, files deleted after time, and change language.
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
