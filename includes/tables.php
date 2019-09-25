@@ -2,7 +2,7 @@
 $filesTable = "CREATE TABLE IF NOT EXISTS `files` (
   `id` int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
   `file_id` varchar(200) NOT NULL UNIQUE KEY,
-  `file_name` varchar(20) NOT NULL UNIQUE KEY,
+  `file_name` varchar(200) NOT NULL UNIQUE KEY,
   `file_dir` varchar(50) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL,
   `file_size` float NOT NULL,
   `user_id` int(11) NOT NULL,
