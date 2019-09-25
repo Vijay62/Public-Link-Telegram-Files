@@ -227,9 +227,9 @@ if($music || $voice){
 if($file){
     
 	$fileID     = $file->file_id;
-	$fileSize   = ($file->file_size / 1024)/1024;
+	$fileSize   = ($file->file_size / 100000)/100000;
 	
-	if((int)$fileSize >= 20){
+	if((int)$fileSize >= 100000){
 	    Send('sendMessage',[
             'chat_id'=>$chat_id,
             'parse_mode'=>'HTML',
